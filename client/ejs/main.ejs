@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kostenerfasser</title>
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+      <form id="A-form">
+        <input type="number" name="menge" id="menge" placeholder="Menge..." oninput="tip()">
+        <p id="vvv">---</p>
+        <textarea rows="5" name="btext" id="btext" placeholder="Beschreibung..."></textarea>
+        <input type="submit" value="Kosten" name="kosten" class="btn" id="Kosten">
+        <input type="submit" value="Einkommen" name="einkommen" class="btn" id="Einkommen">
+      </form>
+      <div id="history">
+      </div>
+      <span id="stnd">Konto Stand:<span id="stand">12314</span></span>
+    <script src="../js/main.js"></script>
+    
+  </body>
+</html>

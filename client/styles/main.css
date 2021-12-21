@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#history {
+  overflow-y: auto;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-height: 45%;
+  background-color: white;
+  font-size: x-large;
+  padding: 2px;
+
+}
+
+form {
+  float: right;
+  display: grid;
+  width: 100%;
+}  
+
+#history::-webkit-scrollbar {
+  display: none;
+}
+
+#btext {
+  margin: 5px;
+  border: 1px solid white;
+  font-size: x-large;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  border-radius: 5px;
+  margin: auto;
+  width: 50%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#menge {
+  margin: 5px;
+  border: 1px solid white;
+  height: 50px;
+  font-size: x-large;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  border-radius: 5px;
+  margin: auto;
+  width: 50%;
+}
+
+.btn {
+  height: 65px;
+  margin: auto;
+  width: 50%;
+  font-size: xx-large;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+#stnd {
+  font-size: 300%;
+  margin: 25%;
+  color: black;
+}
